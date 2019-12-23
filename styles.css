@@ -1,0 +1,25 @@
+/* Add application styles & imports to this file! */
+@import "~nouislider/distribute/nouislider.min.css";
+
+.noUi-tooltip{
+    background-color: orange;
+    color: white;
+    padding: 10px 10px;
+    border-radius: 0;
+}
+
+.noUi-tooltip::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -10px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: orange transparent transparent transparent;
+}
+
+div:focus{
+    outline: none;
+}
+
